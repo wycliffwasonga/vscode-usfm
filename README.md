@@ -4,6 +4,6 @@ A USFM Language Support Extension for Visual Studio Code.
 
 ## Features
 
-### USFM Markers Auto Completion.
+### USFM Syntax Highlighting.
 
 ![feature 1](images/feature-1.png)
