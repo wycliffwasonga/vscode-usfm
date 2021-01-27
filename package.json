@@ -1,0 +1,25 @@
+{
+    "name": "vscode-usfm",
+    "displayName": "USFM",
+    "description": "A USFM language support extension for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "usfm",
+            "aliases": ["USFM", "usfm"],
+            "extensions": [".usfm",".USFM"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "usfm",
+            "scopeName": "text.usfm",
+            "path": "./syntaxes/usfm.tmLanguage.json"
+        }]
+    }
+}
