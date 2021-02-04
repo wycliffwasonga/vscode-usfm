@@ -2,7 +2,12 @@
     "name": "vscode-usfm",
     "displayName": "USFM",
     "description": "A USFM language support extension for Visual Studio Code",
+    "author": "Wycliff Wasonga",
     "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wycliffwasonga/vscode-usfm"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
